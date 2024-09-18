@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+ margin: 0;
+  padding :0;
+   box-sizing: border-box;
+}
+
+ body {
+     background-color: black;
+     color: white;
+     font-family: 'Poppins',sans-serif;
+ }
+  .main-box{
+     width: 100vw;
+      height:100vh;
+     /* background-image:  linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)url('./images/header-image.png')); */
+      /* check it out  */
+     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('./images/header-image.png');
+
+      background-size: cover;
+
+       background-position: center;
+       position:relative;
+       padding: 20px 8%;
+        /* these above three property are very imp */
+     
+  }
+   .nav-bar{
+     align-items: center;
+      justify-content: space-between;
+       display: flex;
+
+   }
+    img{
+         width: 150px;
+          cursor: pointer;
+    }
+    .primary-button{
+        border: solid white 2px;
+         border-radius: 5px;
+          padding: 2px 1.6rem;
+           color: white;
+            text-decoration: none;
+    }
+    .secondary-button{
+         border: solid black 1px;
+          border-radius: 5px;
+           padding: 2px 8px;
+            color:white;
+            background-color: red;
+             text-decoration: none;
+            
+    }
+    /* .info{
+         position: absolute;
+         text-align: center;
+           top: 50%;
+           left: 50%;
+            transform: translate(-50%,-50%);
+             margin-top: 100px;
+
+
+    } */
+      .info{
+        text-align: center; 
+         margin-top: 16%;
+          /* position: absolute; */
+      }
+       .info h1{
+        font-size: 2.5rem;
+       }
+        .info p{
+             margin-top:25px;
+        }
+         .email{
+             border:solid white 2.5px;
+              padding: 0.7rem 24rem 1rem 0.2rem;
+               /* border-radius: ; */
+                border-radius: 60px;
+                opacity: .7;
+                 /* filter: blur(0); */
+            
+         }
+.Get{
+    border: solid black 1px;
+          border-radius: 5px;
+           padding: 15px 14px;
+            color:white;
+            background-color: red;
+             text-decoration: none; 
+              text-decoration: solid;
+               
+}
+
+
